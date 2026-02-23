@@ -393,8 +393,19 @@
       });
     }
 
-    render(products);
+document.addEventListener("DOMContentLoaded", () => {
+  const testGrid = document.getElementById("productGrid");
+  console.log("GRID LA LOAD:", testGrid);
+
+  if (!testGrid) {
+    alert("NU GASESC #productGrid — inseamna ca pagina live nu e index-ul corect sau id-ul e diferit.");
+    return;
+  }
+
+  render(products);
+});
   </script>
 </body>
 </html>
+
 
