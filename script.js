@@ -1,3 +1,4 @@
+console.log("SCRIPT RULEAZA ✅");
 // ========= CONFIG =========
 const WA_NUMBER = "40773840399"; // fara +, fara spatii
 
