@@ -253,5 +253,14 @@
   </main>
 
   <script src="app.js?v=500"></script>
+<script>
+  // Debug: dacă vezi mesajul ăsta pe site, înseamnă că JS inline rulează
+  const g = document.getElementById('productGrid');
+  if (g) g.insertAdjacentHTML('beforebegin', '<div style="color:#fff;padding:10px;border:1px solid #444;margin:10px 0;">JS inline rulează ✅ (urmează app.js)</div>');
+</script>
+
+<script src="./app.js?v=1000"
+        onload="console.log('app.js s-a încărcat ✅')"
+        onerror="console.error('app.js NU s-a încărcat ❌')"></script>
 </body>
 </html>
