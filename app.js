@@ -7,16 +7,16 @@ window.addEventListener("DOMContentLoaded", () => {
   // ========= PRODUSE =========
   const products = [
     // Rufe - lichid
-    { name: "ALIN DETERG,LICHID UNIVERSAL XXL100spalari/COD:897131814", category: "rufe", short: "Detergent lichid universal" , price: "38 Ron" },
+    { name: "ALIN DETERG,LICHID UNIVERSAL XXL100spalari/COD:897131814", category: "rufe", short: "Detergent lichid universal" , price: "38,00 Ron" },
     { name: "ALIN DETERG.ACTIVE 3EN1 ALIN 60 LV 3L/COD:897131913", category: "rufe", short: "Detergent rufe colorate" , price: "27,50 Ron" },
-    { name: "ALIN DETERG.LICHID MARSELLA xxl 100 spalari,5l/897131784", category: "rufe", short: "Parfum exotic, rufe colorate" , price: "38 Ron" },
+    { name: "ALIN DETERG.LICHID MARSELLA xxl 100 spalari,5l/897131784", category: "rufe", short: "Parfum exotic, rufe colorate" , price: "38,00 Ron" },
     { name: "ALIN DETERG.MARS.ALIN 55D 4x2750.55/SPALARI ,COD:897131746", category: "rufe", short: "Pentru pete dificile, sport" , price: "23,49 Ron" },
-    { name: "ALIN DETERG.TRAD.ALIN LICHID/2x4000ML/BIPACK/COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" , price: "60 Ron" },
-    { name: "ALIN DETERG.COCO&MELOCOTON 2x4L 80+80BIPACK/COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" , price: "60 Ron" },
+    { name: "ALIN DETERG.TRAD.ALIN LICHID/2x4000ML/BIPACK/COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" , price: "60,00 Ron" },
+    { name: "ALIN DETERG.COCO&MELOCOTON 2x4L 80+80BIPACK/COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" , price: "60,00 Ron" },
 
     // Rufe - pudra
-    { name: "DETERG,PUDRA MARSELLA-SAC:9+1KG/COD:897105655", category: "rufe", short: "FamilyPack, economic" , price: "60 Ron" },
-    { name: "DETERG.UNIVERSAL XXL10+1KG,119spalari/cod:897105044", category: "rufe", short: "Format mare, eficiență ridicată" , price: "65 Ron" },
+    { name: "DETERG,PUDRA MARSELLA-SAC:9+1KG/COD:897105655", category: "rufe", short: "FamilyPack, economic" , price: "60,00 Ron" },
+    { name: "DETERG.UNIVERSAL XXL10+1KG,119spalari/cod:897105044", category: "rufe", short: "Format mare, eficiență ridicată" , price: "65,00 Ron" },
     { name: "DETERGENT PUDRA MARSELLA 40doze,2,28/COD:897131654", category: "rufe", short: "Marsella, curățare profundă" , price: "21,24 Ron" },
     { name: "DETERGENT PUDRA COLONIA 40doze,2,28kg/cod:897131647", category: "rufe", short: "Colonia, prospețime" , price: "21,24 Ron" },
     { name: "DETERGENT PUDRA UNIVERSAL(14doze),0,8g/COD:897131630", category: "rufe", short: "Universal, format mic" , price: "7,38 Ron" },
@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Balsam rufe
     { name: "BALSAM DE RUFE ,concetratBLUE FLORAL XXL100sp-/COD:897131852", category: "rufe", short: "Parfum intens, catifelare" , price: "12,15 Ron" },
-    { name: "BALSAM DE RUFE COMPLETE BLUE 80 spalari/COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" , price: "9 Ron" },
+    { name: "BALSAM DE RUFE COMPLETE BLUE 80 spalari/COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" , price: "9,00 Ron" },
     { name: "-ALIN Blue Azul Balsam de rufe (100 spălări) 2 L/COD:897131838", category: "rufe", short: "Miros persistent, țesături moi" , price: "12,15 Ron" },
 
     // Casa / Bucatarie
