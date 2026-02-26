@@ -7,54 +7,55 @@ window.addEventListener("DOMContentLoaded", () => {
   // ========= PRODUSE =========
   const products = [
     // Rufe - lichid
-    { name: "ALIN DETERG,LICHID UNIVERSAL XXL100spalari/COD:897132842", category: "rufe", short: "Detergent lichid universal" },
-    { name: "ALIN DETERG.ACTIVE 3EN1 ALIN 60 LV 3L/COD:897131913", category: "rufe", short: "Detergent rufe colorate" },
-    { name: "ALIN DETERG.LICHID MARSELLA xxl 100 spalari,5l/897131784", category: "rufe", short: "Parfum exotic, rufe colorate" },
-    { name: "ALIN DETERG.MARS.ALIN 55D 4x2750.55/SPALARI ,COD:897131746", category: "rufe", short: "Pentru pete dificile, sport" },
-    { name: "ALIN DETERG.TRAD.ALIN LICHID/2x4000ML/BIPACK/COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" },
-    { name: "ALIN DETERG.COCO&MELOCOTON 2x4L 80+80BIPACK/COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" },
+    { name: "ALIN DETERG,LICHID UNIVERSAL XXL100spalari/COD:897131814", category: "rufe", short: "Detergent lichid universal" , price: "38 Ron" },
+    { name: "ALIN DETERG.ACTIVE 3EN1 ALIN 60 LV 3L/COD:897131913", category: "rufe", short: "Detergent rufe colorate" , price: "27,50 Ron" },
+    { name: "ALIN DETERG.LICHID MARSELLA xxl 100 spalari,5l/897131784", category: "rufe", short: "Parfum exotic, rufe colorate" , price: "38 Ron" },
+    { name: "ALIN DETERG.MARS.ALIN 55D 4x2750.55/SPALARI ,COD:897131746", category: "rufe", short: "Pentru pete dificile, sport" , price: "23,49 Ron" },
+    { name: "ALIN DETERG.TRAD.ALIN LICHID/2x4000ML/BIPACK/COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" , price: "60 Ron" },
+    { name: "ALIN DETERG.COCO&MELOCOTON 2x4L 80+80BIPACK/COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" , price: "60 Ron" },
 
     // Rufe - pudra
-    { name: "DETERG,PUDRA MARSELLA-SAC:9+1KG/COD:897105655", category: "rufe", short: "FamilyPack, economic" },
-    { name: "DETERG.UNIVERSAL XXL10+1KG,119spalari/cod:897105044", category: "rufe", short: "Format mare, eficiență ridicată" },
-    { name: "DETERGENT PUDRA MARSELLA 40doze,2,28/COD:897131654", category: "rufe", short: "Marsella, curățare profundă" },
-    { name: "DETERGENT PUDRA COLONIA 40doze,2,28kg/cod:897131647", category: "rufe", short: "Colonia, prospețime" },
-    { name: "DETERGENT PUDRA UNIVERSAL(14doze),0,8g/COD:897131630", category: "rufe", short: "Universal, format mic" },
-    { name: "DETERG.PUDRA MAESELLAXXXL90doze5,130/cod:897131685", category: "rufe", short: "FamilyPack, economic" },
-    { name: "DETERG.UNIVERSAL ALIN 55D 4x2750 ML/:cod:897131722", category: "rufe", short: "îndepărta petele dificile și murdăria invizibilă" },
+    { name: "DETERG,PUDRA MARSELLA-SAC:9+1KG/COD:897105655", category: "rufe", short: "FamilyPack, economic" , price: "60 Ron" },
+    { name: "DETERG.UNIVERSAL XXL10+1KG,119spalari/cod:897105044", category: "rufe", short: "Format mare, eficiență ridicată" , price: "65 Ron" },
+    { name: "DETERGENT PUDRA MARSELLA 40doze,2,28/COD:897131654", category: "rufe", short: "Marsella, curățare profundă" , price: "21,24 Ron" },
+    { name: "DETERGENT PUDRA COLONIA 40doze,2,28kg/cod:897131647", category: "rufe", short: "Colonia, prospețime" , price: "21,24 Ron" },
+    { name: "DETERGENT PUDRA UNIVERSAL(14doze),0,8g/COD:897131630", category: "rufe", short: "Universal, format mic" , price: "7,38 Ron" },
+    { name: "DETERG.PUDRA MAESELLAXXXL90doze5,130/cod:897131685", category: "rufe", short: "FamilyPack, economic" , price: "41,88 Ron" },
+    { name: "DETERG.UNIVERSAL ALIN 55D 4x2750 ML/:cod:897131722", category: "rufe", short: "îndepărta petele dificile și murdăria invizibilă" , price: "23,49 Ron" },
 
     // Balsam rufe
-    { name: "BALSAM DE RUFE ,concetratBLUE FLORAL XXL100sp-/COD:897131852", category: "rufe", short: "Parfum intens, catifelare" },
-    { name: "BALSAM DE RUFE COMPLETE BLUE 80 spalari/COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" },
-    { name: "-ALIN Blue Azul Balsam de rufe (100 spălări) 2 L/COD:897131838", category: "rufe", short: "Miros persistent, țesături moi" },
+    { name: "BALSAM DE RUFE ,concetratBLUE FLORAL XXL100sp-/COD:897131852", category: "rufe", short: "Parfum intens, catifelare" , price: "12,15 Ron" },
+    { name: "BALSAM DE RUFE COMPLETE BLUE 80 spalari/COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" , price: "9 Ron" },
+    { name: "-ALIN Blue Azul Balsam de rufe (100 spălări) 2 L/COD:897131838", category: "rufe", short: "Miros persistent, țesături moi" , price: "12,15 Ron" },
 
     // Casa / Bucatarie
-    { name: "DEGRESANT CONCENTRAT(CURATIRE GEN.) 4in /COD:897132842", category: "degresanti", short: "Curăță, degresează, dezinfectează, dezodorizează" },
-    { name: "CURATA CRISTALE pt geamuri/GLASS CLEANER/COD.897116378", category: "casa", short: "Cu alcool, uscare rapidă" },
-    { name: "DETERG,UNIVERSAL PENTRU BAIE 1,5LITRI/COD:897127626", category: "casa", short: "Curățare & igienizare" },
-    { name: "Amoniac parfumat 1.5l-/COD:897131852", category: "casa", short: "Pentru covoare, tapițerii, oglinzi etc." },
+    { name: "DEGRESANT CONCENTRAT(CURATIRE GEN.) 4in /COD:897132842", category: "degresanti", short: "Curăță, degresează, dezinfectează, dezodorizează" , price: "9,94 Ron" },
+    { name: "CURATA CRISTALE pt geamuri/GLASS CLEANER/COD.897116378", category: "casa", short: "Cu alcool, uscare rapidă" , price: "8,74 Ron" },
+    { name: "DETERG,UNIVERSAL PENTRU BAIE 1,5LITRI/COD:897127626", category: "casa", short: "Curățare & igienizare" , price: "9,36 Ron" },
+    { name: "Amoniac parfumat 1.5l-/COD:897114596", category: "casa", short: "Pentru covoare, tapițerii, oglinzi etc." , price: "7,50 Ron" },
 
     // Pardoseli
-    { name: "DETERGENT PODELE PIN 1,5L.COD:897120115", category: "pardoseli", short: "Parfum revigorant de pin" },
-    { name: "DETERG.PODELE FLORAL,1,5LCOD:897121273", category: "pardoseli", short: "Parfum floral elegant" },
-    { name: "DETERGENT PODEA MARINE(parfum ocean)/cod:897116491", category: "pardoseli", short: "Parfum oceanic puternic" },
+    { name: "DETERGENT PODELE PIN 1,5L.COD:897120115", category: "pardoseli", short: "Parfum revigorant de pin" , price: "7,50 Ron" },
+    { name: "DETERG.PODELE FLORAL,1,5LCOD:897121273", category: "pardoseli", short: "Parfum floral elegant" , price: "7,50 Ron" },
+    { name: "DETERGENT PODEA MARINE(parfum ocean)/cod:897116491", category: "pardoseli", short: "Parfum oceanic puternic" , price: "7,50 Ron" },
 
     // Vase
-    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897131821", category: "vase", short: "Degresare intensivă" },
-    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897112158", category: "vase", short: "Format mare, uz zilnic" },
+    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897131821", category: "vase", short: "Degresare intensivă" , price: "8.66 Ron" },
+    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897112158", category: "vase", short: "Format mare, uz zilnic" , price: "6,35 Ron" },
 
     // Inalbitori (Lejie)
-    { name: "Lejie cu detergent 2L COD:897111458", category: "casa", short: "Igienizare & curățare activă" },
-    { name: "Lejie normal 4L", category: "casa", short: "Înălbitor clasic" },
-    { name: "Lejie parfumată 2L", category: "casa", short: "Puterea clorului + miros plăcut" },
-    { name: "Lejie parfum galben 2L", category: "casa", short: "Igienizare cu parfum fresh" },
+    { name: "Lejia cu Detergent 2L înălbitor cu detergent COD:897111458", category: "casa", short: "Igienizare & curățare activă" , price: "11,18 Ron" },
+    { name: "Lejie normal 4L COD:897127602", category: "casa", short: "Înălbitor clasic" , price: "20,66 Ron" },
+    { name: "Lejia cu Detergent 2L înălbitor cu detergent COD:897112455", category: "casa", short: "Puterea clorului + miros plăcut" , price: "10,00 Ron" },
+    { name: "Lejia cu Detergent 2L înălbitor cu detergent parfumat COD:897111465", category: "casa", short: "Igienizare cu parfum fresh" , price: "11,06 Ron" },
 
     // Igiena personala
-    { name: "Gel de duș Migdale & Miere 0.75L COD:897111809", category: "igiena", short: "Nutriție pentru piele uscată" },
-    { name: "Gel de duș Ovăz 0.75L COD:897127732", category: "igiena", short: "Pentru piele sensibilă" },
-    { name: "Gel de duș Cocos 0.75L COD:897127718", category: "igiena", short: "Aromă tropicală intensă" },
-    { name: "Gel de duș Herbal 0.75L", category: "igiena", short: "Prospețime naturală" },
-  ];
+    { name: "Gel de duș Migdale & Miere 0.75L COD:897111809", category: "igiena", short: "Nutriție pentru piele uscată" , price: "7,64 Ron" },
+    { name: "Gel de duș Ovăz 0.75L COD:897127732", category: "igiena", short: "Pentru piele sensibilă" , price: "7,64 Ron" },
+    { name: "Gel de duș Argan 0.75L COD:897127749", category: "igiena", short: "Aromă tropicală intensă" , price: "7,64 Ron" },
+    { name: "Gel de duș Herbal 0.75LCOD:897127725", category: "igiena", short: "Prospețime naturală" , price: "7,64 Ron" },
+{ name: "Săpun lichid și gel de duș 0.75L COD:897127718", category: "igiena", short: "Prospețime naturală" , price: "7,64 Ron" },  
+];
 
   // ========= ELEMENTE UI =========
   const grid = document.getElementById("productGrid");
@@ -143,7 +144,7 @@ window.addEventListener("DOMContentLoaded", () => {
         <div class="card-body">
           <div class="card-title">${escapeHtml(p.name)}</div>
           ${p.short ? `<div class="card-meta">${escapeHtml(p.short)}</div>` : ""}
-          <div class="price">Cere ofertă</div>
+          <div class="price">${p.price ? p.price : "Cere ofertă"}</div>
 
           <div class="card-actions">
             <a class="btn btn-primary small" target="_blank" rel="noopener"
